@@ -8,7 +8,7 @@
 var row;
 var column;
 
-/*action when submit is clicked*/
+//action when submit is clicked
 $('#sizePicker').submit(function(){
 	event.preventDefault();
 	row = $('#inputHeight').val();
@@ -16,7 +16,7 @@ $('#sizePicker').submit(function(){
 	makeGrid(row, column);
 });
 
-/*function to insert row and column to table*/
+//function to insert row and column to table
 function makeGrid(r,c) {
 	$('tr').remove();
 	for ( var x=1; x<=r; x++){
@@ -26,7 +26,7 @@ function makeGrid(r,c) {
 			}
 	}
 	
-/*function too add remove color*/
+//function too add remove color
 	$('td').click(function(){
 		color = $('#colorPicker').val();
 		if($(this).attr('style')){
