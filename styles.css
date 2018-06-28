@@ -21,8 +21,17 @@ body {
   text-transform: uppercase;
   margin-left: 20px;
 }
-
-
+#reset{
+    width: 100px;
+  height: 30px;
+  border: 1px solid #E52790;
+  border-radius: 30px;
+  color: #000000;
+  background: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
 h1 {
     font-family: Monoton;
     font-size: 70px;
