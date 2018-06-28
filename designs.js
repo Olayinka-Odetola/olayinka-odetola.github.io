@@ -21,6 +21,11 @@ function makeGrid(r,c) {
 			}
 	}
 	
+//fuction to reset or refresh	
+	$('#reset').click(function(){
+		$('td').remove();
+	});
+	
 //function to add remove color
 	$('td').click(function addColor(){
 		color = $('#colorPicker').val();
